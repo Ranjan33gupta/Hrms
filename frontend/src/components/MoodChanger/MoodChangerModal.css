@@ -1,0 +1,138 @@
+.mood-changer-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.mood-changer-modal {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.5s ease;
+}
+
+.mood-changer-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #555;
+  z-index: 10;
+}
+
+.mood-changer-content {
+  padding: 30px;
+}
+
+.mood-changer-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.mood-changer-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  resize: none;
+  font-family: inherit;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.mood-changer-anonymous {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.mood-changer-anonymous input {
+  margin-right: 8px;
+}
+
+.mood-changer-submit-btn {
+  background: linear-gradient(135deg, #4a90e2, #5e5aec);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.mood-changer-submit-btn:hover {
+  background: linear-gradient(135deg, #3a80d2, #4e4adc);
+  transform: translateY(-2px);
+}
+
+.mood-changer-submit-btn:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.mood-changer-response {
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.mood-changer-emoji {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  animation: pulse 2s infinite;
+}
+
+.mood-changer-message {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.mood-changer-feel-better-btn {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid currentColor;
+  color: #4a90e2;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mood-changer-feel-better-btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  transform: translateY(-2px);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

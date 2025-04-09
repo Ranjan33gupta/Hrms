@@ -1,0 +1,86 @@
+{
+  "common": {
+    "appName": "Panel de RRHH",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "view": "Ver",
+    "submit": "Enviar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "noResults": "No se encontraron resultados",
+    "required": "Obligatorio",
+    "invalidInput": "Entrada inválida"
+  },
+  "auth": {
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "register": "Registrarse",
+    "forgotPassword": "¿Olvidó su contraseña?",
+    "resetPassword": "Restablecer contraseña",
+    "username": "Nombre de usuario",
+    "password": "Contraseña",
+    "email": "Correo electrónico",
+    "confirmPassword": "Confirmar contraseña",
+    "loginSuccess": "Inicio de sesión exitoso",
+    "loginError": "Nombre de usuario o contraseña inválidos",
+    "registerSuccess": "Registro exitoso",
+    "passwordMismatch": "Las contraseñas no coinciden",
+    "passwordReset": "Correo de restablecimiento de contraseña enviado",
+    "sessionExpired": "Su sesión ha expirado. Por favor, inicie sesión nuevamente."
+  },
+  "dashboard": {
+    "welcome": "¡Bienvenido, {{name}}!",
+    "todayIs": "Hoy es {{date}}",
+    "quickActions": "Acciones Rápidas",
+    "recentActivity": "Actividad Reciente",
+    "statistics": "Estadísticas",
+    "notifications": "Notificaciones",
+    "viewAll": "Ver Todo"
+  },
+  "attendance": {
+    "title": "Asistencia",
+    "clockIn": "Registrar Entrada",
+    "clockOut": "Registrar Salida",
+    "alreadyClockedIn": "Ya ha registrado su entrada hoy",
+    "alreadyClockedOut": "Ya ha registrado su salida hoy",
+    "noClockInRecord": "No se encontró registro de entrada para hoy. Por favor, registre su entrada primero.",
+    "clockInSuccess": "Entrada registrada con éxito",
+    "clockOutSuccess": "Salida registrada con éxito"
+  },
+  "mood": {
+    "title": "Seguimiento de Ánimo",
+    "howAreYouFeeling": "¿Cómo te sientes hoy?",
+    "veryHappy": "Muy Feliz",
+    "happy": "Feliz",
+    "neutral": "Neutral",
+    "sad": "Triste",
+    "verySad": "Muy Triste"
+  },
+  "chatbot": {
+    "title": "Asistente",
+    "placeholder": "Pregúntame cualquier cosa...",
+    "send": "Enviar",
+    "thinking": "Pensando...",
+    "greeting": "¡Hola! ¿En qué puedo ayudarte hoy?"
+  },
+  "quotes": {
+    "title": "Cita Motivacional",
+    "refresh": "Nueva Cita",
+    "author": "- {{author}}"
+  },
+  "errors": {
+    "general": "Ocurrió un error. Por favor, inténtelo de nuevo más tarde.",
+    "network": "Error de red. Por favor, verifique su conexión.",
+    "unauthorized": "No está autorizado para acceder a este recurso.",
+    "notFound": "El recurso solicitado no fue encontrado.",
+    "validation": "Por favor, verifique su entrada e inténtelo de nuevo.",
+    "server": "Error del servidor. Por favor, contacte al soporte si el problema persiste."
+  }
+}

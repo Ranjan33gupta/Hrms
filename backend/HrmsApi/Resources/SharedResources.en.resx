@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ClockInSuccess" xml:space="preserve">
+    <value>Successfully clocked in</value>
+  </data>
+  <data name="ClockOutSuccess" xml:space="preserve">
+    <value>Successfully clocked out</value>
+  </data>
+  <data name="AlreadyClockedIn" xml:space="preserve">
+    <value>You have already clocked in today</value>
+  </data>
+  <data name="AlreadyClockedOut" xml:space="preserve">
+    <value>You have already clocked out today</value>
+  </data>
+  <data name="NoClockInRecord" xml:space="preserve">
+    <value>No clock-in record found for today. Please clock in first.</value>
+  </data>
+  <data name="EmployeeNotFound" xml:space="preserve">
+    <value>Employee not found</value>
+  </data>
+  <data name="AttendanceNotFound" xml:space="preserve">
+    <value>Attendance record not found</value>
+  </data>
+  <data name="InternalServerError" xml:space="preserve">
+    <value>An internal server error occurred</value>
+  </data>
+  <data name="ValidationError" xml:space="preserve">
+    <value>Validation error</value>
+  </data>
+  <data name="UnauthorizedAccess" xml:space="preserve">
+    <value>Unauthorized access</value>
+  </data>
+  <data name="ResourceNotFound" xml:space="preserve">
+    <value>The requested resource was not found</value>
+  </data>
+  <data name="PhotoRequired" xml:space="preserve">
+    <value>Photo is required</value>
+  </data>
+  <data name="PhotoSizeLimit" xml:space="preserve">
+    <value>Photo size must be less than 10MB</value>
+  </data>
+  <data name="PhotoTypeInvalid" xml:space="preserve">
+    <value>Only JPEG and PNG images are allowed</value>
+  </data>
+</root>
